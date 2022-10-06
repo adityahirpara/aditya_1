@@ -1,0 +1,23 @@
+body{
+    background-image: url("images/image10.jpeg");
+   
+    background-repeat: no-repeat;
+
+    background-position:left top;
+
+    
+    
+}
+
+div{
+    background-color:rgb(222, 223, 165);
+    opacity: 0.8;
+    border-style: dotted;
+    margin-bottom: 50px;
+
+}
+p{
+    border-style: dashed solid dashed dashed;
+    border-radius: 5px;
+}
+

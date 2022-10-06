@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>form in tab</title>
+</head>
+<body>
+    <table border="1" align="center" cellspacing="5">
+        <tr>
+            <td>First Name</td>
+            <td><input type="text" name="fname" placeholder="first name" required></td>
+            <td>Surname</td>
+            <td><input type="text" name="sname" placeholder="surname" required></td>
+        </tr>
+        <tr>
+            <td>Mobile Number</td>
+            <td><input type="tell" placeholder="mobile number" required></td>
+            <td>Email id</td>
+            <td><input type="email" placeholder="Email id" required></td>
+        </tr>
+        <tr>
+            <td>Password</td>
+            <td colspan="3"><input type="password" placeholder="enter password" required></td>
+        </tr>
+
+        <tr>
+            <td><label>Date of Birth : </label></td>
+            <td colspan="3"><input type="date" /></td>
+        </tr>
+        
+        <tr>
+            <td type="radio">Gender</td>
+            <td><input type="radio" name="gender" id="male" />
+                <label for="male">Male</label></td>
+            <td colspan="2"><input type="radio" name="gender" id="female"><label for="female">Female</label></td>
+        </tr>
+
+        <tr>
+            <td colspan="4" align="center">
+                <input type="submit"  value="Sign up" id="submit">
+            </td>
+        </tr>
+
+    </table>
+
+</body>
+</html>
